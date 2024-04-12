@@ -86,12 +86,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Engine\vs_2015\Engine.vcxproj">
-      <Project>{15774b04-b487-4c69-93ee-403f840c2888}</Project>
-      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="..\inc\AbstractPass.h" />
     <ClInclude Include="..\inc\BasePass.h" />
     <ClInclude Include="..\inc\BeginQueryPass.h" />
@@ -185,6 +179,11 @@
   <ItemGroup>
     <None Include="..\..\README.md" />
     <None Include="..\inc\ConfigurationSettings.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Engine\vs_2022\Engine.vcxproj">
+      <Project>{15774b04-b487-4c69-93ee-403f840c2888}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

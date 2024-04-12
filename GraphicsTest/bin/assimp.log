@@ -1,0 +1,125 @@
+Info,  T12620: Load ../Conf\../Assets/models/cube/cube.obj
+Info,  T12620: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T12620: Import root directory is '../Conf\../Assets/models/cube\'
+Info,  T12620: Entering post processing pipeline
+Info,  T12620: RemoveRedundantMatsProcess finished. Removed 0 redundant and 1 unused materials.
+Info,  T12620: OptimizeGraphProcess finished; Input nodes: 2, Output nodes: 1
+Info,  T12620: Points: 0X, Lines: 0X, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Info,  T12620: FindInvalidDataProcess finished. Found issues ...
+Info,  T12620: CalcTangentsProcess finished. Tangents have been calculated
+Info,  T12620: JoinVerticesProcess finished | Verts in: 36 out: 24 | ~33.3333
+Info,  T12620: Cache relevant are 1 meshes (12 faces). Average output ACMR is 2
+Info,  T12620: Leaving post processing pipeline
+Info,  T12620: Load $$$___magic___$$$.nff
+Info,  T12620: Found a matching importer for this file format: Neutral File Format Importer.
+Info,  T12620: Import root directory is '.\'
+Info,  T12620: Entering post processing pipeline
+Info,  T12620: Points: 0X, Lines: 0X, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Info,  T12620: FindInvalidDataProcess finished. Found issues ...
+Info,  T12620: GenVertexNormalsProcess finished. Vertex normals have been calculated
+Error, T12620: Failed to compute tangents; need UV data in channel0
+Info,  T12620: JoinVerticesProcess finished | Verts in: 15360 out: 2562 | ~83.3203
+Info,  T12620: Cache relevant are 1 meshes (5120 faces). Average output ACMR is 0.716016
+Info,  T12620: Leaving post processing pipeline
+Info,  T12620: Load $$$___magic___$$$.nff
+Info,  T12620: Found a matching importer for this file format: Neutral File Format Importer.
+Info,  T12620: Import root directory is '.\'
+Info,  T12620: Entering post processing pipeline
+Warn,  T12620: Found 512 degenerated primitives
+Info,  T12620: Points: 1X, Lines: 1X, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Info,  T12620: FindInvalidDataProcess finished. Found issues ...
+Info,  T12620: GenVertexNormalsProcess finished. Vertex normals have been calculated
+Error, T12620: Failed to compute tangents; need UV data in channel0
+Info,  T12620: JoinVerticesProcess finished | Verts in: 1536 out: 771 | ~49.8047
+Info,  T12620: Cache relevant are 1 meshes (512 faces). Average output ACMR is 1.54688
+Info,  T12620: Leaving post processing pipeline
+Info,  T12620: Load $$$___magic___$$$.nff
+Info,  T12620: Found a matching importer for this file format: Neutral File Format Importer.
+Info,  T12620: Import root directory is '.\'
+Info,  T12620: Entering post processing pipeline
+Info,  T12620: RemoveRedundantMatsProcess finished. Removed 1 redundant and 0 unused materials.
+Warn,  T12620: Found 512 degenerated primitives
+Info,  T12620: Points: 1X, Lines: 1X, Triangles: 2, Polygons: 0 (Meshes, X = removed)
+Info,  T12620: FindInvalidDataProcess finished. Found issues ...
+Info,  T12620: GenVertexNormalsProcess finished. Vertex normals have been calculated
+Error, T12620: Failed to compute tangents; need UV data in channel0
+Info,  T12620: JoinVerticesProcess finished | Verts in: 4608 out: 1801 | ~60.9158
+Info,  T12620: Cache relevant are 2 meshes (1536 faces). Average output ACMR is 1.21354
+Info,  T12620: Leaving post processing pipeline
+Info,  T12620: Load $$$___magic___$$$.nff
+Info,  T12620: Found a matching importer for this file format: Neutral File Format Importer.
+Info,  T12620: Import root directory is '.\'
+Info,  T12620: Entering post processing pipeline
+Info,  T12620: TriangulateProcess finished. All polygons have been triangulated.
+Info,  T12620: Points: 0X, Lines: 0X, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Info,  T12620: FindInvalidDataProcess finished. Found issues ...
+Info,  T12620: GenVertexNormalsProcess finished. Vertex normals have been calculated
+Error, T12620: Failed to compute tangents; need UV data in channel0
+Info,  T12620: Leaving post processing pipeline
+Info,  T12620: Load $$$___magic___$$$.nff
+Info,  T12620: Found a matching importer for this file format: Neutral File Format Importer.
+Info,  T12620: Import root directory is '.\'
+Info,  T12620: Entering post processing pipeline
+Info,  T12620: RemoveRedundantMatsProcess finished. Removed 6 redundant and 0 unused materials.
+Warn,  T12620: Found 512 degenerated primitives
+Info,  T12620: Points: 6X, Lines: 6X, Triangles: 12, Polygons: 0 (Meshes, X = removed)
+Info,  T12620: FindInvalidDataProcess finished. Found issues ...
+Info,  T12620: GenVertexNormalsProcess finished. Vertex normals have been calculated
+Error, T12620: Failed to compute tangents; need UV data in channel0
+Info,  T12620: JoinVerticesProcess finished | Verts in: 27648 out: 10806 | ~60.9158
+Info,  T12620: Cache relevant are 12 meshes (9216 faces). Average output ACMR is 1.21354
+Info,  T12620: Leaving post processing pipeline
+Info,  T12620: Load $$$___magic___$$$.nff
+Info,  T12620: Found a matching importer for this file format: Neutral File Format Importer.
+Info,  T12620: Import root directory is '.\'
+Info,  T12620: Entering post processing pipeline
+Info,  T12620: TriangulateProcess finished. All polygons have been triangulated.
+Info,  T12620: Points: 0X, Lines: 0X, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Info,  T12620: FindInvalidDataProcess finished. Found issues ...
+Info,  T12620: CalcTangentsProcess finished. Tangents have been calculated
+Info,  T12620: Leaving post processing pipeline
+Info,  T12620: Load $$$___magic___$$$.nff
+Info,  T12620: Found a matching importer for this file format: Neutral File Format Importer.
+Info,  T12620: Import root directory is '.\'
+Info,  T12620: Entering post processing pipeline
+Info,  T12620: TriangulateProcess finished. All polygons have been triangulated.
+Info,  T12620: Points: 0X, Lines: 0X, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Info,  T12620: FindInvalidDataProcess finished. Found issues ...
+Info,  T12620: CalcTangentsProcess finished. Tangents have been calculated
+Info,  T12620: Leaving post processing pipeline
+Info,  T12620: Load $$$___magic___$$$.nff
+Info,  T12620: Found a matching importer for this file format: Neutral File Format Importer.
+Info,  T12620: Import root directory is '.\'
+Info,  T12620: Entering post processing pipeline
+Info,  T12620: TriangulateProcess finished. All polygons have been triangulated.
+Info,  T12620: Points: 0X, Lines: 0X, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Info,  T12620: FindInvalidDataProcess finished. Found issues ...
+Info,  T12620: CalcTangentsProcess finished. Tangents have been calculated
+Info,  T12620: Leaving post processing pipeline
+Info,  T12620: Load $$$___magic___$$$.nff
+Info,  T12620: Found a matching importer for this file format: Neutral File Format Importer.
+Info,  T12620: Import root directory is '.\'
+Info,  T12620: Entering post processing pipeline
+Info,  T12620: TriangulateProcess finished. All polygons have been triangulated.
+Info,  T12620: Points: 0X, Lines: 0X, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Info,  T12620: FindInvalidDataProcess finished. Found issues ...
+Info,  T12620: CalcTangentsProcess finished. Tangents have been calculated
+Info,  T12620: Leaving post processing pipeline
+Info,  T12620: Load $$$___magic___$$$.nff
+Info,  T12620: Found a matching importer for this file format: Neutral File Format Importer.
+Info,  T12620: Import root directory is '.\'
+Info,  T12620: Entering post processing pipeline
+Info,  T12620: TriangulateProcess finished. All polygons have been triangulated.
+Info,  T12620: Points: 0X, Lines: 0X, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Info,  T12620: FindInvalidDataProcess finished. Found issues ...
+Info,  T12620: CalcTangentsProcess finished. Tangents have been calculated
+Info,  T12620: Leaving post processing pipeline
+Info,  T12620: Load $$$___magic___$$$.nff
+Info,  T12620: Found a matching importer for this file format: Neutral File Format Importer.
+Info,  T12620: Import root directory is '.\'
+Info,  T12620: Entering post processing pipeline
+Info,  T12620: TriangulateProcess finished. All polygons have been triangulated.
+Info,  T12620: Points: 0X, Lines: 0X, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Info,  T12620: FindInvalidDataProcess finished. Found issues ...
+Info,  T12620: CalcTangentsProcess finished. Tangents have been calculated
+Info,  T12620: Leaving post processing pipeline

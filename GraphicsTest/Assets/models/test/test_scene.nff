@@ -1,0 +1,82 @@
+# Define the viewer
+#    "v"
+#    "from" Fx Fy Fz
+#    "at" Ax Ay Az
+#    "up" Ux Uy Uz
+#    "angle" angle
+#    "hither" hither
+#    "resolution" xres yres
+v
+from 0 0 25
+at 0 0 0
+up 0 1 0
+angle 45
+hither 0.1
+resolution 800 600
+
+# Background color
+# "b" R G B
+b 1 1 1
+
+# Define a (white) positional light
+# "l" X Y Z [R G B]
+l 0 10 0
+
+# Define object material properties
+# "f" red green blue Kd Ks Shine T index_of_refraction
+# Brass material
+f 0.78 0.57 0.11 1 1 27.8 0 0
+# Define a sphere
+# "s" center.x center.y center.z radius
+s 5 -7 -5 3
+
+# Red plastic material
+f 0.6 0.1 0.1 1 2 32 0 0
+# Define a cube
+hex -5 -7.65 5 4
+
+# Emerald green material
+f 0.07568 0.61424 0.07568 1 1 76.8 0 0
+# Define a plane (front face)
+p 4
+  10  10  10 
+ -10  10  10 
+ -10 -10  10 
+  10 -10  10 
+
+# Define a plane (back face)
+p 4
+ 10  10 -10
+ 10 -10 -10
+-10 -10 -10
+-10  10 -10
+
+# Define a plane (left face)
+p 4
+-10  10 -10
+-10 -10 -10
+-10 -10  10 
+-10  10  10
+
+# Define a plane (Right face)
+p 4
+  10  10 -10 
+  10  10  10
+  10 -10  10 
+  10 -10 -10
+
+# Define a plane (Top Face)
+p 4
+  10  10 -10 
+ -10  10 -10 
+ -10  10  10 
+  10  10  10 
+
+# Define a plane (Top Face)
+p 4
+ 10 -10  10
+-10 -10  10 
+-10 -10 -10 
+ 10 -10 -10 
+ 
+

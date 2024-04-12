@@ -1,0 +1,116 @@
+Info,  T6204: Load D:\Projects\ForwardPlus\GraphicsTest\Conf\../Assets/models/crytek-sponza/sponza_nobanner.assbin
+Info,  T6204: Found a matching importer for this file format: Assimp Binary Importer.
+Info,  T6204: Import root directory is 'D:\Projects\ForwardPlus\GraphicsTest\Conf\../Assets/models/crytek-sponza\'
+Info,  T6204: Load $$$___magic___$$$.nff
+Info,  T6204: Found a matching importer for this file format: Neutral File Format Importer.
+Info,  T6204: Import root directory is '.\'
+Info,  T6204: Entering post processing pipeline
+Info,  T6204: Points: 0X, Lines: 0X, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Info,  T6204: FindInvalidDataProcess finished. Found issues ...
+Info,  T6204: GenVertexNormalsProcess finished. Vertex normals have been calculated
+Error, T6204: Failed to compute tangents; need UV data in channel0
+Info,  T6204: JoinVerticesProcess finished | Verts in: 15360 out: 2562 | ~83.3203
+Info,  T6204: Cache relevant are 1 meshes (5120 faces). Average output ACMR is 0.716016
+Info,  T6204: Leaving post processing pipeline
+Info,  T6204: Load $$$___magic___$$$.nff
+Info,  T6204: Found a matching importer for this file format: Neutral File Format Importer.
+Info,  T6204: Import root directory is '.\'
+Info,  T6204: Entering post processing pipeline
+Warn,  T6204: Found 512 degenerated primitives
+Info,  T6204: Points: 1X, Lines: 1X, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Info,  T6204: FindInvalidDataProcess finished. Found issues ...
+Info,  T6204: GenVertexNormalsProcess finished. Vertex normals have been calculated
+Error, T6204: Failed to compute tangents; need UV data in channel0
+Info,  T6204: JoinVerticesProcess finished | Verts in: 1536 out: 771 | ~49.8047
+Info,  T6204: Cache relevant are 1 meshes (512 faces). Average output ACMR is 1.54688
+Info,  T6204: Leaving post processing pipeline
+Info,  T6204: Load $$$___magic___$$$.nff
+Info,  T6204: Found a matching importer for this file format: Neutral File Format Importer.
+Info,  T6204: Import root directory is '.\'
+Info,  T6204: Entering post processing pipeline
+Info,  T6204: RemoveRedundantMatsProcess finished. Removed 1 redundant and 0 unused materials.
+Warn,  T6204: Found 512 degenerated primitives
+Info,  T6204: Points: 1X, Lines: 1X, Triangles: 2, Polygons: 0 (Meshes, X = removed)
+Info,  T6204: FindInvalidDataProcess finished. Found issues ...
+Info,  T6204: GenVertexNormalsProcess finished. Vertex normals have been calculated
+Error, T6204: Failed to compute tangents; need UV data in channel0
+Info,  T6204: JoinVerticesProcess finished | Verts in: 4608 out: 1801 | ~60.9158
+Info,  T6204: Cache relevant are 2 meshes (1536 faces). Average output ACMR is 1.21354
+Info,  T6204: Leaving post processing pipeline
+Info,  T6204: Load $$$___magic___$$$.nff
+Info,  T6204: Found a matching importer for this file format: Neutral File Format Importer.
+Info,  T6204: Import root directory is '.\'
+Info,  T6204: Entering post processing pipeline
+Info,  T6204: TriangulateProcess finished. All polygons have been triangulated.
+Info,  T6204: Points: 0X, Lines: 0X, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Info,  T6204: FindInvalidDataProcess finished. Found issues ...
+Info,  T6204: GenVertexNormalsProcess finished. Vertex normals have been calculated
+Error, T6204: Failed to compute tangents; need UV data in channel0
+Info,  T6204: Leaving post processing pipeline
+Info,  T6204: Load $$$___magic___$$$.nff
+Info,  T6204: Found a matching importer for this file format: Neutral File Format Importer.
+Info,  T6204: Import root directory is '.\'
+Info,  T6204: Entering post processing pipeline
+Info,  T6204: RemoveRedundantMatsProcess finished. Removed 6 redundant and 0 unused materials.
+Warn,  T6204: Found 512 degenerated primitives
+Info,  T6204: Points: 6X, Lines: 6X, Triangles: 12, Polygons: 0 (Meshes, X = removed)
+Info,  T6204: FindInvalidDataProcess finished. Found issues ...
+Info,  T6204: GenVertexNormalsProcess finished. Vertex normals have been calculated
+Error, T6204: Failed to compute tangents; need UV data in channel0
+Info,  T6204: JoinVerticesProcess finished | Verts in: 27648 out: 10806 | ~60.9158
+Info,  T6204: Cache relevant are 12 meshes (9216 faces). Average output ACMR is 1.21354
+Info,  T6204: Leaving post processing pipeline
+Info,  T6204: Load $$$___magic___$$$.nff
+Info,  T6204: Found a matching importer for this file format: Neutral File Format Importer.
+Info,  T6204: Import root directory is '.\'
+Info,  T6204: Entering post processing pipeline
+Info,  T6204: TriangulateProcess finished. All polygons have been triangulated.
+Info,  T6204: Points: 0X, Lines: 0X, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Info,  T6204: FindInvalidDataProcess finished. Found issues ...
+Info,  T6204: CalcTangentsProcess finished. Tangents have been calculated
+Info,  T6204: Leaving post processing pipeline
+Info,  T6204: Load $$$___magic___$$$.nff
+Info,  T6204: Found a matching importer for this file format: Neutral File Format Importer.
+Info,  T6204: Import root directory is '.\'
+Info,  T6204: Entering post processing pipeline
+Info,  T6204: TriangulateProcess finished. All polygons have been triangulated.
+Info,  T6204: Points: 0X, Lines: 0X, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Info,  T6204: FindInvalidDataProcess finished. Found issues ...
+Info,  T6204: CalcTangentsProcess finished. Tangents have been calculated
+Info,  T6204: Leaving post processing pipeline
+Info,  T6204: Load $$$___magic___$$$.nff
+Info,  T6204: Found a matching importer for this file format: Neutral File Format Importer.
+Info,  T6204: Import root directory is '.\'
+Info,  T6204: Entering post processing pipeline
+Info,  T6204: TriangulateProcess finished. All polygons have been triangulated.
+Info,  T6204: Points: 0X, Lines: 0X, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Info,  T6204: FindInvalidDataProcess finished. Found issues ...
+Info,  T6204: CalcTangentsProcess finished. Tangents have been calculated
+Info,  T6204: Leaving post processing pipeline
+Info,  T6204: Load $$$___magic___$$$.nff
+Info,  T6204: Found a matching importer for this file format: Neutral File Format Importer.
+Info,  T6204: Import root directory is '.\'
+Info,  T6204: Entering post processing pipeline
+Info,  T6204: TriangulateProcess finished. All polygons have been triangulated.
+Info,  T6204: Points: 0X, Lines: 0X, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Info,  T6204: FindInvalidDataProcess finished. Found issues ...
+Info,  T6204: CalcTangentsProcess finished. Tangents have been calculated
+Info,  T6204: Leaving post processing pipeline
+Info,  T6204: Load $$$___magic___$$$.nff
+Info,  T6204: Found a matching importer for this file format: Neutral File Format Importer.
+Info,  T6204: Import root directory is '.\'
+Info,  T6204: Entering post processing pipeline
+Info,  T6204: TriangulateProcess finished. All polygons have been triangulated.
+Info,  T6204: Points: 0X, Lines: 0X, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Info,  T6204: FindInvalidDataProcess finished. Found issues ...
+Info,  T6204: CalcTangentsProcess finished. Tangents have been calculated
+Info,  T6204: Leaving post processing pipeline
+Info,  T6204: Load $$$___magic___$$$.nff
+Info,  T6204: Found a matching importer for this file format: Neutral File Format Importer.
+Info,  T6204: Import root directory is '.\'
+Info,  T6204: Entering post processing pipeline
+Info,  T6204: TriangulateProcess finished. All polygons have been triangulated.
+Info,  T6204: Points: 0X, Lines: 0X, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Info,  T6204: FindInvalidDataProcess finished. Found issues ...
+Info,  T6204: CalcTangentsProcess finished. Tangents have been calculated
+Info,  T6204: Leaving post processing pipeline

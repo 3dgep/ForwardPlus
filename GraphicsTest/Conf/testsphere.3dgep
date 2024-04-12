@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="12">
+<ConfigurationSettings class_id="0" tracking_level="0" version="6">
+	<WindowWidth>1280</WindowWidth>
+	<WindowHeight>720</WindowHeight>
+	<FullScreen>0</FullScreen>
+	<SceneFileName>../Assets/models/test/testsphere.obj</SceneFileName>
+	<SceneScaleFactor>1.000000000e+00</SceneScaleFactor>
+	<CameraPosition class_id="1" tracking_level="0" version="0">
+		<X>0.000000000e+00</X>
+		<Y>0.000000000e+00</Y>
+		<Z>0.000000000e+00</Z>
+	</CameraPosition>
+	<CameraRotation class_id="2" tracking_level="0" version="0">
+		<X>0.000000000e+00</X>
+		<Y>0.000000000e+00</Y>
+		<Z>0.000000000e+00</Z>
+		<W>1.000000000e+00</W>
+	</CameraRotation>
+	<NormalCameraSpeed>1.000000000e+00</NormalCameraSpeed>
+	<FastCameraSpeed>1.000000000e+01</FastCameraSpeed>
+	<CameraPivotDistance>7.199993134e+00</CameraPivotDistance>
+	<Lights class_id="3" tracking_level="0" version="0">
+		<count>1</count>
+		<item_version>1</item_version>
+		<item class_id="4" tracking_level="0" version="1">
+			<Position class_id="5" tracking_level="0" version="0">
+				<X>7.092705250e+00</X>
+				<Y>1.032388687e+00</Y>
+				<Z>1.426708412e+01</Z>
+				<W>1.000000000e+00</W>
+			</Position>
+			<Direction>
+				<X>-3.592332304e-01</X>
+				<Y>-2.013024986e-01</Y>
+				<Z>-9.112801552e-01</Z>
+				<W>0.000000000e+00</W>
+			</Direction>
+			<Color>
+				<X>1.000000000e+00</X>
+				<Y>1.000000000e+00</Y>
+				<Z>1.000000000e+00</Z>
+				<W>1.000000000e+00</W>
+			</Color>
+			<SpotlightAngle>4.500000000e+01</SpotlightAngle>
+			<Range>1.000000000e+02</Range>
+			<Intensity>1.000000000e+00</Intensity>
+			<Enabled>1</Enabled>
+			<Type>0</Type>
+		</item>
+	</Lights>
+	<LightsMinBounds>
+		<X>-1.000000000e+00</X>
+		<Y>-1.000000000e+00</Y>
+		<Z>-1.000000000e+00</Z>
+	</LightsMinBounds>
+	<LightsMaxBounds>
+		<X>1.000000000e+00</X>
+		<Y>1.000000000e+00</Y>
+		<Z>1.000000000e+00</Z>
+	</LightsMaxBounds>
+	<MinSpotAngle>1.000000000e+00</MinSpotAngle>
+	<MaxSpotAngle>6.000000000e+01</MaxSpotAngle>
+	<MinRange>1.000000015e-01</MinRange>
+	<MaxRange>1.000000000e+02</MaxRange>
+	<GeneratePointLights>1</GeneratePointLights>
+	<GenerateSpotLights>1</GenerateSpotLights>
+	<GenerateDirectionalLights>0</GenerateDirectionalLights>
+	<LightGenerationMethod>0</LightGenerationMethod>
+</ConfigurationSettings>
+</boost_serialization>
+

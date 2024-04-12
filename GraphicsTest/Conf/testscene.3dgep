@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="12">
+<ConfigurationSettings class_id="0" tracking_level="0" version="6">
+	<WindowWidth>1280</WindowWidth>
+	<WindowHeight>720</WindowHeight>
+	<FullScreen>0</FullScreen>
+	<SceneFileName>../Assets/models/test/test_scene.nff</SceneFileName>
+	<SceneScaleFactor>1.000000000e+00</SceneScaleFactor>
+	<CameraPosition class_id="1" tracking_level="0" version="0">
+		<X>-5.214230418e-01</X>
+		<Y>-4.804314375e-01</Y>
+		<Z>3.072751760e-01</Z>
+	</CameraPosition>
+	<CameraRotation class_id="2" tracking_level="0" version="0">
+		<X>-2.990352688e-03</X>
+		<Y>-1.891843276e-03</Y>
+		<Z>3.249292262e-03</Z>
+		<W>-1.000564933e+00</W>
+	</CameraRotation>
+	<NormalCameraSpeed>1.000000000e+00</NormalCameraSpeed>
+	<FastCameraSpeed>1.000000000e+01</FastCameraSpeed>
+	<CameraPivotDistance>3.310002136e+01</CameraPivotDistance>
+	<Lights class_id="3" tracking_level="0" version="0">
+		<count>2</count>
+		<item_version>1</item_version>
+		<item class_id="4" tracking_level="0" version="1">
+			<Position class_id="5" tracking_level="0" version="0">
+				<X>-5.354664922e-01</X>
+				<Y>-1.405315161e+00</Y>
+				<Z>4.513062537e-01</Z>
+				<W>1.000000000e+00</W>
+			</Position>
+			<Direction>
+				<X>1.169777941e-02</X>
+				<Y>-1.709939390e-01</Y>
+				<Z>-9.852198362e-01</Z>
+				<W>0.000000000e+00</W>
+			</Direction>
+			<Color>
+				<X>1.000000000e+00</X>
+				<Y>1.000000000e+00</Y>
+				<Z>1.000000000e+00</Z>
+				<W>1.000000000e+00</W>
+			</Color>
+			<SpotlightAngle>3.629999924e+01</SpotlightAngle>
+			<Range>1.655999947e+01</Range>
+			<Intensity>1.000000000e+00</Intensity>
+			<Enabled>1</Enabled>
+			<Type>0</Type>
+		</item>
+		<item>
+			<Position>
+				<X>-1.614411926e+01</X>
+				<Y>2.101334810e+00</Y>
+				<Z>2.156868553e+01</Z>
+				<W>1.000000000e+00</W>
+			</Position>
+			<Direction>
+				<X>5.851315260e-01</X>
+				<Y>-2.827685475e-01</Y>
+				<Z>-7.601579428e-01</Z>
+				<W>0.000000000e+00</W>
+			</Direction>
+			<Color>
+				<X>1.000000000e+00</X>
+				<Y>1.000000000e+00</Y>
+				<Z>1.000000000e+00</Z>
+				<W>1.000000000e+00</W>
+			</Color>
+			<SpotlightAngle>4.500000000e+01</SpotlightAngle>
+			<Range>1.000000000e+00</Range>
+			<Intensity>1.000000000e+00</Intensity>
+			<Enabled>1</Enabled>
+			<Type>2</Type>
+		</item>
+	</Lights>
+	<LightsMinBounds>
+		<X>-1.000000000e+01</X>
+		<Y>0.000000000e+00</Y>
+		<Z>-1.000000000e+01</Z>
+	</LightsMinBounds>
+	<LightsMaxBounds>
+		<X>1.000000000e+01</X>
+		<Y>1.000000000e+01</Y>
+		<Z>1.000000000e+01</Z>
+	</LightsMaxBounds>
+	<MinSpotAngle>1.000000000e+00</MinSpotAngle>
+	<MaxSpotAngle>6.000000000e+01</MaxSpotAngle>
+	<MinRange>1.000000015e-01</MinRange>
+	<MaxRange>1.000000000e+02</MaxRange>
+	<GeneratePointLights>1</GeneratePointLights>
+	<GenerateSpotLights>1</GenerateSpotLights>
+	<GenerateDirectionalLights>0</GenerateDirectionalLights>
+	<LightGenerationMethod>0</LightGenerationMethod>
+</ConfigurationSettings>
+</boost_serialization>
+

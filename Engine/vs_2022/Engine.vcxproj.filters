@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DirectX 11">
+      <UniqueIdentifier>{7ca5234c-d372-4410-9cd0-102e4f6f1490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DirectX 12">
+      <UniqueIdentifier>{2dd4d387-8f51-4f6e-8fa0-58a79e415c9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DirectX 11">
+      <UniqueIdentifier>{89359b89-2990-4bc6-bd66-e9d06c83872f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DirectX 12">
+      <UniqueIdentifier>{588d7966-8b65-46a1-8a86-caabef20d312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{65485d7d-0acf-4a37-a5aa-273ae74875ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\Engine.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\inc\Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\BoundingSphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\Buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\EnginePCH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\EngineTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\Events.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\Graphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\HighResolutionTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\KeyCodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\Random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\Ray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\RaycastHit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\Rect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\RenderWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\SamplerState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\ShaderParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\SceneNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SceneBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\RenderDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\BufferBinding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\ConstantBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\Visitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\BlendState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\RasterizerState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\Viewport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\DepthStencilState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\PipelineState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\ProgressWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\RenderTarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\DependencyTracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\Serialization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\ClearFlags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\Query.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DX11\BlendStateDX11.h">
+      <Filter>Header Files\DirectX 11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DX11\BufferDX11.h">
+      <Filter>Header Files\DirectX 11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DX11\ConstantBufferDX11.h">
+      <Filter>Header Files\DirectX 11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DX11\DepthStencilStateDX11.h">
+      <Filter>Header Files\DirectX 11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DX11\MeshDX11.h">
+      <Filter>Header Files\DirectX 11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DX11\PipelineStateDX11.h">
+      <Filter>Header Files\DirectX 11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DX11\QueryDX11.h">
+      <Filter>Header Files\DirectX 11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DX11\RasterizerStateDX11.h">
+      <Filter>Header Files\DirectX 11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DX11\RenderDeviceDX11.h">
+      <Filter>Header Files\DirectX 11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DX11\RenderTargetDX11.h">
+      <Filter>Header Files\DirectX 11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DX11\RenderWindowDX11.h">
+      <Filter>Header Files\DirectX 11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DX11\SamplerStateDX11.h">
+      <Filter>Header Files\DirectX 11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DX11\SceneDX11.h">
+      <Filter>Header Files\DirectX 11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DX11\ShaderDX11.h">
+      <Filter>Header Files\DirectX 11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DX11\ShaderParameterDX11.h">
+      <Filter>Header Files\DirectX 11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DX11\TextureDX11.h">
+      <Filter>Header Files\DirectX 11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DX12\BufferDX12.h">
+      <Filter>Header Files\DirectX 12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DX12\d3dx12.h">
+      <Filter>Header Files\DirectX 12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DX12\DescriptorHeapDX12.h">
+      <Filter>Header Files\DirectX 12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DX12\MeshDX12.h">
+      <Filter>Header Files\DirectX 12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DX12\RenderDeviceDX12.h">
+      <Filter>Header Files\DirectX 12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DX12\RenderWindowDX12.h">
+      <Filter>Header Files\DirectX 12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\ReadDirectoryChanges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\ThreadSafeQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReadDirectoryChangesPrivate.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\Pixel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CPUAccess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DX11\StructuredBufferDX11.h">
+      <Filter>Header Files\DirectX 11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\StructuredBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\inc\ShaderParameter.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\inc\RenderDevice.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\inc\ConstantBuffer.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\inc\DependencyTracker.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\src\DX12\DescriptorHeapDX12.inl">
+      <Filter>Header Files\DirectX 12</Filter>
+    </None>
+    <None Include="..\inc\Texture.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\inc\StructuredBuffer.inl">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Resources\Shaders\DefaultShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BoundingSphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EnginePCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EngineTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Graphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HighResolutionTimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Ray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RenderWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ShaderParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SceneNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SceneBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ConstantBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RenderDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ProgressWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DependencyTracker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DX11\BlendStateDX11.cpp">
+      <Filter>Source Files\DirectX 11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DX11\ConstantBufferDX11.cpp">
+      <Filter>Source Files\DirectX 11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DX11\DepthStencilStateDX11.cpp">
+      <Filter>Source Files\DirectX 11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DX11\MeshDX11.cpp">
+      <Filter>Source Files\DirectX 11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DX11\PipelineStateDX11.cpp">
+      <Filter>Source Files\DirectX 11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DX11\QueryDX11.cpp">
+      <Filter>Source Files\DirectX 11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DX11\RasterizerStateDX11.cpp">
+      <Filter>Source Files\DirectX 11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DX11\RenderDeviceDX11.cpp">
+      <Filter>Source Files\DirectX 11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DX11\RenderTargetDX11.cpp">
+      <Filter>Source Files\DirectX 11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DX11\RenderWindowDX11.cpp">
+      <Filter>Source Files\DirectX 11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DX11\SamplerStateDX11.cpp">
+      <Filter>Source Files\DirectX 11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DX11\SceneDX11.cpp">
+      <Filter>Source Files\DirectX 11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DX11\ShaderDX11.cpp">
+      <Filter>Source Files\DirectX 11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DX11\ShaderParameterDX11.cpp">
+      <Filter>Source Files\DirectX 11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DX11\TextureDX11.cpp">
+      <Filter>Source Files\DirectX 11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DX12\DescriptorHeapDX12.cpp">
+      <Filter>Source Files\DirectX 12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DX12\MeshDX12.cpp">
+      <Filter>Source Files\DirectX 12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DX12\RenderDeviceDX12.cpp">
+      <Filter>Source Files\DirectX 12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DX12\RenderWindowDX12.cpp">
+      <Filter>Source Files\DirectX 12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ReadDirectoryChanges.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ReadDirectoryChangesPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DX11\StructuredBufferDX11.cpp">
+      <Filter>Source Files\DirectX 11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DX11\BufferDX11.cpp">
+      <Filter>Source Files\DirectX 11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DX12\BufferDX12.cpp">
+      <Filter>Source Files\DirectX 12</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\Icons\favicon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
